@@ -143,5 +143,23 @@ namespace People.Controllers
         {
             return _context.Nguoi.Any(e => e.Id == id);
         }
+
+        public async Task<IActionResult> Search(string SearchString)
+        {
+            var nguoi = from m in _context.Nguoi select m;
+            if (!string.IsNullOrEmpty(SearchString)){
+                nguoi = nguoi.Where(s => s.Name.Contains(SearchString));
+            }
+            return View(await nguoi.ToListAsync());
+        }
+        public async Task<IActionResult> SearchTheoID(string id)
+        {
+            var nguoi = from m in _context.Nguoi select m;
+            if (id == null)
+            {
+                return NotFound();
+            }
+            return View(await nguoi.ToListAsync());
+        }
     }
 }

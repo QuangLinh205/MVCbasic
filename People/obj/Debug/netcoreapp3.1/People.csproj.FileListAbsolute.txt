@@ -174,3 +174,5 @@ C:\Users\ADMIN\source\repos\People\People\obj\Debug\netcoreapp3.1\Razor\Views\Mo
 C:\Users\ADMIN\source\repos\People\People\obj\Debug\netcoreapp3.1\Razor\Views\Movies\Details.cshtml.g.cs
 C:\Users\ADMIN\source\repos\People\People\obj\Debug\netcoreapp3.1\Razor\Views\Movies\Edit.cshtml.g.cs
 C:\Users\ADMIN\source\repos\People\People\obj\Debug\netcoreapp3.1\Razor\Views\Movies\Index.cshtml.g.cs
+C:\Users\ADMIN\source\repos\People\People\obj\Debug\netcoreapp3.1\Razor\Views\Nguois\Search.cshtml.g.cs
+C:\Users\ADMIN\source\repos\People\People\obj\Debug\netcoreapp3.1\Razor\Views\Nguois\SearchTheoID.cshtml.g.cs

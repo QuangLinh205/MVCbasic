@@ -6,7 +6,6 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using People.Models;
-using System;
 using Microsoft.Extensions.Hosting;
 
 namespace People

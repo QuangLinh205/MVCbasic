@@ -50,7 +50,7 @@ namespace People.Controllers
         
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind("Id,Name,Age")] Nguoi nguoi)
+        public ActionResult Create([Bind("Id,Name,Age,Address,BirthDay")] Nguoi nguoi)
         {
             if (ModelState.IsValid)
             {
@@ -80,7 +80,7 @@ namespace People.Controllers
         
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit(int id, [Bind("Id,Name,Age")] Nguoi nguoi)
+        public ActionResult Edit(int id, [Bind("Id,Name,Age,Address,BirthDay")] Nguoi nguoi)
         {
             if (id != nguoi.Id)
             {
